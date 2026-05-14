@@ -6,6 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 from sklearn.model_selection import TimeSeriesSplit
 from statsmodels.tsa.arima.model import ARIMA
+import signalplot
 import logging
 import matplotlib.pyplot as plt
 import numpy as np
@@ -65,17 +66,7 @@ plt.show()
 
 
 # Set Tufte-like style
-plt.rcParams.update({
-    'axes.grid': False,
-    "font.family": "serif",
-    "axes.spines.right": False,
-    "axes.spines.top": False,
-    "axes.spines.left": True,
-    "axes.spines.bottom": True,
-    "axes.linewidth": 0.5,
-    "xtick.direction": "out",
-    "ytick.direction": "out"
-})
+signalplot.apply(font_family='serif')
 
 # -------------------------------
 # Simulating "Coffee Badgers" in the Badge-In Data
