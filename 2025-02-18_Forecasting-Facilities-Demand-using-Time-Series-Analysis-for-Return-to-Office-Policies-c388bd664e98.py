@@ -11,6 +11,7 @@ import logging
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+np.random.seed(42)
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -25,7 +26,6 @@ logging.basicConfig(
 n_employees = 1000
 n_days = 300
 # Generate badge-in and badge-out times with variability
-np.random.seed(42)
 badge_data = []
 for emp_id in range(1, n_employees + 1):
     for day in range(1, n_days + 1):
@@ -77,7 +77,6 @@ n_employees = 1000
 n_days = 300
 
 # Generate badge-in and badge-out times with variability
-np.random.seed(42)
 badge_data = []
 
 for emp_id in range(1, n_employees + 1):
