@@ -11,14 +11,7 @@ Facilities teams rely on time series analysis to forecast office space needs. By
 
 Badge-in data captures employee movement in and out of the office. Attendance is sporadic --- employees do not come in every day, and their arrival and departure times vary. Weekly seasonality is a key feature, with higher attendance midweek (Tuesday through Thursday) and lower turnout on Mondays and Fridays. External events also impact attendance, including holidays and company-wide meetings that may cause dips or surges in office presence.
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
